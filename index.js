@@ -26,17 +26,35 @@ const managerQuestions = [
     {
         type: 'input',
         name: 'id',
-        message: "What is your id? (Required)"
+        message: "What is your ID? (Required)",
+        validate: (input) => {
+            if (input === '') {
+                return "Please make sure you enter your ID here."
+            }
+            return true;
+        }
     },
     {
         type: 'input',
         name: 'email',
-        message: "What is your email? (Required)"
+        message: "What is your email? (Required)",
+        validate: (input) => {
+            if (input === '') {
+                return "Please make sure you enter your email here."
+            }
+            return true;
+        }
     },
     {
         type: 'input',
         name: 'officeNumber',
-        message: "What is your office number? (Required)"
+        message: "What is your office number? (Required)",
+        validate: (input) => {
+            if (input === '') {
+                return "Please make sure you enter your office here here."
+            }
+            return true;
+        }
     },
     {
         type: 'confirm',

@@ -179,7 +179,7 @@ function writeToFile() {
     // console.log(fileName);
     // console.log(data);
     console.log(teamList);
-    fs.writeFile(`generateData.html`, generatedMarkdown(teamList), err => {
+    fs.writeFile(`index.html`, generatedMarkdown(teamList), err => {
         if (err) {
             throw err
         };

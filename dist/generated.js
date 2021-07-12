@@ -5,7 +5,7 @@ function getRole(teamList) {
     for (let i=0; i < teamList.length; i++) {
         if (teamList[i].getRole() === 'Manager'){
               role += `    
-              <div class="card text-center" style="width: 18rem;">
+            <div class="card text-center" style="width: 18rem;">
               <div class="card-header text-white text-center" style="background-color: #21113c;">
                 Manger
               </div>
@@ -22,7 +22,7 @@ function getRole(teamList) {
     for (let i=0; i < teamList.length; i++) {
         if (teamList[i].getRole() === 'Engineer'){
               role += `    
-              <div class="card text-center" style="width: 18rem;">
+            <div class="card text-center" style="width: 18rem;">
               <div class="card-header text-white" style="background-color: #6f42c1;">
                 Engineer
               </div>
@@ -39,7 +39,7 @@ function getRole(teamList) {
     for (let i=0; i < teamList.length; i++) {
         if (teamList[i].getRole() === 'Intern'){
               role += `    
-              <div class="card text-center" style="width: 18rem;">
+            <div class="card text-center" style="width: 18rem;">
               <div class="card-header text-white" style="background-color: #9777d1;"">
                 Intern
               </div>

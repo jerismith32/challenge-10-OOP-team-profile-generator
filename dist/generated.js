@@ -40,7 +40,7 @@ function getRole(teamList) {
         if (teamList[i].getRole() === 'Intern'){
               role += `    
             <div class="card text-center" style="width: 18rem;">
-              <div class="card-header text-white" style="background-color: #9777d1;"">
+              <div class="card-header text-white" style="background-color: #9777d1;">
                 Intern
               </div>
               <ul class="list-group list-group-flush card-text">
@@ -76,7 +76,7 @@ function generateMarkdown(teamList) {
   </div>
 </nav>
 
-<div class="card-deck>
+<div class="card-deck">
 ${getRole(teamList)};
 </div>
 

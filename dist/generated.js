@@ -5,7 +5,7 @@ function getRole(teamList) {
     for (let i=0; i < teamList.length; i++) {
         if (teamList[i].getRole() === 'Manager'){
               role += `    
-              <div class="card col-3" style="width: 18rem;">
+              <div class="card text-center" style="width: 18rem;">
               <div class="card-header text-white text-center" style="background-color: #21113c;">
                 Manger
               </div>
@@ -22,14 +22,14 @@ function getRole(teamList) {
     for (let i=0; i < teamList.length; i++) {
         if (teamList[i].getRole() === 'Engineer'){
               role += `    
-              <div class="card col-3" style="width: 18rem;">
-              <div class="card-header text-center text-white" style="background-color: #6f42c1;">
+              <div class="card text-center" style="width: 18rem;">
+              <div class="card-header text-white" style="background-color: #6f42c1;">
                 Engineer
               </div>
-              <ul class="list-group list-group-flush">
+              <ul class="list-group list-group-flush card-text">
                 <li class="list-group-item">${teamList[i].name}</li>
                 <li class="list-group-item">ID: ${teamList[i].id}</li>
-                <li class="list-group-item">>Email: <a href = "mailto: ${teamList[i].email}">${teamList[i].email}</a></li>
+                <li class="list-group-item">Email: <a href = "mailto: ${teamList[i].email}">${teamList[i].email}</a></li>
                 <li class="list-group-item">GitHub: ${teamList[i].github}</li>
               </ul>
             </div>`  
@@ -39,14 +39,14 @@ function getRole(teamList) {
     for (let i=0; i < teamList.length; i++) {
         if (teamList[i].getRole() === 'Intern'){
               role += `    
-              <div class="card col-3" style="width: 18rem;">
-              <div class="card-header text-center text-white" style="background-color: #9777d1;"">
+              <div class="card text-center" style="width: 18rem;">
+              <div class="card-header text-white" style="background-color: #9777d1;"">
                 Intern
               </div>
-              <ul class="list-group list-group-flush">
+              <ul class="list-group list-group-flush card-text">
                 <li class="list-group-item">${teamList[i].name}</li>
                 <li class="list-group-item">ID: ${teamList[i].id}</li>
-                <li class="list-group-item">>Email: <a href = "mailto: ${teamList[i].email}">${teamList[i].email}</a></li>
+                <li class="list-group-item">Email: <a href = "mailto: ${teamList[i].email}">${teamList[i].email}</a></li>
                 <li class="list-group-item">School: ${teamList[i].school}</li>
               </ul>
             </div>`  
@@ -76,7 +76,7 @@ function generateMarkdown(teamList) {
   </div>
 </nav>
 
-<div class="col-12">
+<div class="card-deck>
 ${getRole(teamList)};
 </div>
 

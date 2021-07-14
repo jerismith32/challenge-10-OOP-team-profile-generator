@@ -30,7 +30,7 @@ function getRole(teamList) {
                 <li class="list-group-item">${teamList[i].name}</li>
                 <li class="list-group-item">ID: ${teamList[i].id}</li>
                 <li class="list-group-item">Email: <a href = "mailto: ${teamList[i].email}">${teamList[i].email}</a></li>
-                <li class="list-group-item">GitHub: ${teamList[i].github}</li>
+                <li class="list-group-item">GitHub: <a href = "www.github/${teamList[i].github}">${teamList[i].github}</a></li>
               </ul>
             </div>`  
         }

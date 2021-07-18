@@ -59,9 +59,10 @@
 
   ## Screenshots
   ![Generate Team Profile From Walk Through](assets/images/GeneratedTeam.png)
+  
   ## WalkThrough
-
   [Walk Through Example of How the Program Functions](https://drive.google.com/file/d/1GagqkH72N6dfpIynJ-PfOte9eTA0BBup/view)
+  [Secondary Walk Through Example of How the Program Functions](https://drive.google.com/file/d/1wwHieWG4sncX7lLjca0tD-vPbD9gGs_g/view)
 
   ## Resources
 

@@ -7,7 +7,7 @@ function getRole(teamList) {
               role += `    
             <div class="card text-center" style="width: 18rem;">
               <div class="card-header text-white text-center" style="background-color: #21113c;">
-                Manger
+                Manager
               </div>
               <ul class="list-group list-group-flush">
                 <li class="list-group-item">${teamList[i].name}</li>
